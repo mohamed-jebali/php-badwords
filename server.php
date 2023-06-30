@@ -8,6 +8,6 @@
             <?php echo $name;?> <br>
             <?php echo $lengthString . strlen($name); ?> <br>
             <!-- ------------- -->
-            <?php echo str_replace('$censored','***','$censored')?> <br>
+            <?php echo str_replace($censored,'***',$censored)?> <br>
             <?php echo $lengthString . strlen($censored); ?>
 </div>
