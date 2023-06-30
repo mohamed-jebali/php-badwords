@@ -15,18 +15,17 @@
 <?php
     $name = $_POST['name'];
     $censored = $_POST['censored'];
-    $lengthString = 'la lunghezza è : ';
 ?>
 
 <div class='container p-5'>
     <div class="row">
         <div class="col-12 text-center">
             <?php echo $name;?> <br>
-            <?php echo $lengthString . strlen($name); ?> <br>
+            <?php echo 'la lunghezza è ' . strlen($name); ?> <br>
             <hr>
             <!-- ------------- -->
             <?php echo str_replace($censored,'***',$censored)?> <br>
-            <?php echo $lengthString . strlen($censored); ?>
+            <?php echo 'la lunghezza è ' . strlen($censored); ?>
         </div>
     </div>
 </div>
