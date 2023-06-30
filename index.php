@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Php Badwords</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     </head>
 <body>
     <form class='p-5' action="./server.php" method='GET'>
-        <input class='mb-4' type="text"name='paragrafo'> <br>
-        <input class='mb-4' type="text"name='censurato'> <br>
+        <input class='mb-4' type="text"name='name'> <br>
+        <input class='mb-4' type="text"name='censored'> <br>
         <button class='btn btn-primary'>
             Invia
         </button>
